@@ -53,4 +53,6 @@ The front and the back are different but the back and the middle are not differe
 
 ## Conclusions
 
+In this write up I did the box plot which showed the results and differences of much each row drinks alcohol. I then summarized the numerical data that showed the back seat drinks twice as much than the front and middle seat. I then ran an inferential test which was different than running a test comparing two categories. When comparing more than two things running a qualifying test is needed that is one way anova. When I ran inferential test, the probability is between 0 and 1 then that is when I needed a further investigation which I did. I did the further investigation and plotted another model and that showed me that the back seat was different from the front and middle. 
+
 
