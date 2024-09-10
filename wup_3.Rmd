@@ -36,9 +36,9 @@ basicCN + geom_boxplot()
 
 ## Inferential Tests
 ```{r}
-favstats(alcohol~Seat,data=ucdavis1)
+favstats(alcohol~Seat,data=davisdata)
 ```
-
+The front and back seat have about the same amount of people compared to the people seated in the middle. Those seated in the middle are twice more than the front and back. The data chart tells me that while the back seat has 32 people the back seat has a max of 55 drinks and that is twice the number from the front and middle seat. The average drinks in the back seat is at 9.6 and the drinks for the front row people is about 2. The back seat has a median of about 3. 
 
 
 ## Conclusions
