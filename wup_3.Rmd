@@ -44,7 +44,12 @@ model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
 The possibility of getting this answer is one out of ten thousand. In order to see which seats are different from the others further investigation is needed.
+ 
+```{r}
+plot(TukeyHSD(model1),las=2)
+```
 
+The front and the back are different but the back and the middle are not different from each other but are different from the back. The back is different from the front and middle seat. 
 
 ## Conclusions
 
