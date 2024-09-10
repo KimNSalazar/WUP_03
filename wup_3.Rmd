@@ -43,7 +43,7 @@ favstats(alcohol~Seat,data=davisdata)
 model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
-
+The possibility of getting this answer is one out of ten thousand. In order to see which seats are different from the others further investigation is needed.
 
 
 ## Conclusions
