@@ -27,17 +27,19 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 ```{r}
 basicCN + geom_boxplot()
 ```
-  
-  
-### get fancy  
 
-```{r}
-basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
-```
+   The front and the middle seat might look the same but the middle seats have more outliers. The back box is the median and is it also higher than the front and middle seat.
+  
+
 
 ## Numerical Summarys 
 
 ## Inferential Tests
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+
 
 ## Conclusions
 
